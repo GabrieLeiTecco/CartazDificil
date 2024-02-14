@@ -1,0 +1,29 @@
+#box{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    zoom: 1;
+    border: 1px solid red;
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+}
+
+#btns{
+    float: left;
+    position: fixed;
+}
+
+#btnPodeMover{
+    background-color: red;
+}
+#btnPodeCres{
+    background-color: red;
+}
+
+body{
+    overflow: hidden;
+}
