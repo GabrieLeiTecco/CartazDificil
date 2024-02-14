@@ -6,7 +6,6 @@ estilo = window.getComputedStyle(div),
 podeCres = false, podeMov = false
 
 //FUNÇÕES DE ZOOM
-
 function zoom(e) {
     if (podeCres == true) {
         let delta = Math.sign(e.deltaY)
@@ -95,7 +94,7 @@ function pode(btn) {
 }
 }
 
-//EXECUTANDO ALGUMAS FUNÇÕES
+//ATRIBUINDO ALGUMAS FUNÇÕES
 div.onwheel = zoom
 window.onload = addListeners
 window.onkeydown = zoom
